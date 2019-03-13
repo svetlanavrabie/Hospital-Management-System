@@ -1,0 +1,23 @@
+﻿<Window x:Class="NLH.PreposePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NLH"
+        mc:Ignorable="d"
+        Title="PreposePage" Height="430" Width="675" Background="#FFC2D1DE">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="398" VerticalAlignment="Top" Width="674" Source="image/presentation.JPG"/>
+        <Label Content="LE NORTHERN LIGHTS HOSPITAL - Preposé page" HorizontalAlignment="Left" Margin="121,10,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Showcard Gothic" Foreground="#FF0B1B66" Width="478"/>
+        <Image HorizontalAlignment="Left" Height="53" Margin="29,10,0,0" VerticalAlignment="Top" Width="46" Source="image/l2.png" RenderTransformOrigin="1.264,0.535"/>
+        <Menu HorizontalAlignment="Left" Height="191" Margin="21,79,0,0" VerticalAlignment="Top" Width="154" Background="#FF9DCAF0">
+
+            <MenuItem x:Name="option" Header="Ajouter Infrastructure" Height="37" Width="154" FontSize="14" FontWeight="Bold" Foreground="#FF0B0546" Click="option_Click" />
+            <MenuItem Header="Gestion de Patients" Height="37" Width="154" FontSize="14" FontWeight="Bold" Foreground="#FF0B0546" Click="MenuItem_Click_1"/>
+            <MenuItem Header="Processus d'admission" Height="37" Width="154" FontSize="14" FontWeight="Bold" Foreground="#FF0B0546" Click="MenuItem_Click"/>
+            <MenuItem x:Name="menuTab" Header="Recherche Patiens" Height="37" Width="154" FontSize="14" FontWeight="Bold" Foreground="#FF0B0546" Click="menuTab_Click"/>
+            <MenuItem x:Name="Quitter" Header="Quitter" Height="37" Width="154" FontSize="14" FontWeight="Bold" Foreground="#FF0B0546" Click="Quitter_Click" />
+        </Menu>
+
+    </Grid>
+</Window>

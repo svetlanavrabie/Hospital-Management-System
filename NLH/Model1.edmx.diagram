@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ae0a3dc3f46242969de52d13d79e9545" Name="Diagram1">
+        <EntityTypeShape EntityType="NHLModel.CompagnieAssurance" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NHLModel.Departement" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NHLModel.DossierAdmission" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NHLModel.Lit1" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NHLModel.Medicin" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="NHLModel.Parent" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NHLModel.Patient" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NHLModel.Prepose" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NHLModel.sysdiagram" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NHLModel.TableUser" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NHLModel.TypeLit" Width="1.5" PointX="0.75" PointY="14.625" IsExpanded="true" />
+        <AssociationConnector Association="NHLModel.FK_Patient_CompagnieAssurance" ManuallyRouted="false" />
+        <AssociationConnector Association="NHLModel.FK_Lit1_Departement" ManuallyRouted="false" />
+        <AssociationConnector Association="NHLModel.FK_DossierAdmission_Lit1" ManuallyRouted="false" />
+        <AssociationConnector Association="NHLModel.FK_DossierAdmission_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="NHLModel.FK_Lit1_TypeLit" ManuallyRouted="false" />
+        <AssociationConnector Association="NHLModel.FK_Patient_Medicin" ManuallyRouted="false" />
+        <AssociationConnector Association="NHLModel.FK_Patient_Parent" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
